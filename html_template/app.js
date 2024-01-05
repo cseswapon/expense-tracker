@@ -36,7 +36,7 @@ function del(i) {
 }
 
 function edit(i){
-    transaction = transactions[i]
+    let transaction = transactions[i]
     editing_id = i
     cancelEditButton.style.display = "block"
     nameHolder.value = transaction.name;
