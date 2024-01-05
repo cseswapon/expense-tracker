@@ -1,4 +1,5 @@
 import { useSelector } from "react-redux";
+import numberWithCommas from "../../utils/thusandSeperator";
 
 export default function Balance() {
   const allTransaction =
@@ -21,7 +22,7 @@ export default function Balance() {
       <p>Your Current Balance</p>
       <h3>
         <span>৳</span>
-        <span>{totalCost.income - totalCost.expense}</span>
+        <span>{numberWithCommas(totalCost.income - totalCost.expense)}</span>
       </h3>
     </div>
   );

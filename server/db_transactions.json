@@ -5,6 +5,18 @@
       "amount": 1,
       "type": "income",
       "id": 1
+    },
+    {
+      "name": "",
+      "type": "income",
+      "amount": 456456,
+      "id": 2
+    },
+    {
+      "name": "",
+      "type": "income",
+      "amount": 4580000,
+      "id": 3
     }
   ]
 }
